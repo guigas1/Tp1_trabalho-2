@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1721423234 source:/home/pedro/source/tp1/projeto2_tp1/controladoras.cpp
+	"controladoras.hpp"
+	"dominios.hpp"
+	"unidadepersistencia.hpp"
+	<iostream>
+	<limits>
+
+1721401967 /home/pedro/source/tp1/projeto2_tp1/controladoras.hpp
+	"interfaces.hpp"
+	"dominios.hpp"
+
+1721227488 /home/pedro/source/tp1/projeto2_tp1/interfaces.hpp
+	"dominios.hpp"
+	"entidades.hpp"
+	<stdexcept>
+
+1721401686 /home/pedro/source/tp1/projeto2_tp1/dominios.hpp
+	<stdexcept>
+	<string>
+
+1721401715 source:/home/pedro/source/tp1/projeto2_tp1/dominios.cpp
+	"dominios.hpp"
+	<string>
+	<regex>
+	<cstdlib>
+
+1721213573 source:/home/pedro/source/tp1/projeto2_tp1/entidades.cpp
+	"dominios.hpp"
+	"entidades.hpp"
+
+1721213428 /home/pedro/source/tp1/projeto2_tp1/entidades.hpp
+	"dominios.hpp"
+
+1720294304 source:/home/pedro/source/tp1/projeto2_tp1/stubs.cpp
+	"stubs.hpp"
+	<iostream>
+
+1720294137 /home/pedro/source/tp1/projeto2_tp1/stubs.hpp
+	"interfaces.hpp"
+	<stdexcept>
+	<iostream>
+	<typeinfo>
+
+1721423302 source:/home/pedro/source/tp1/projeto2_tp1/main.cpp
+	<stdexcept>
+	<iostream>
+	<string>
+	"dominios.hpp"
+	"entidades.hpp"
+	"interfaces.hpp"
+	"controladoras.hpp"
+	"stubs.hpp"
+	"unidadepersistencia.hpp"
+
+1721223746 /home/pedro/source/tp1/projeto2_tp1/unidadepersistencia.hpp
+	"dominios.hpp"
+	"entidades.hpp"
+	<list>
+	<iostream>
+	<string>
+	<bits/stdc++.h>
+	"sqlite3.h"
+
+1716472267 /home/pedro/source/tp1/projeto2_tp1/sqlite3.h
+	<stdarg.h>
+
+1721423064 source:/home/pedro/source/tp1/projeto2_tp1/unidadepersistencia.cpp
+	"unidadepersistencia.hpp"
+	"sqlite3.h"
+
+1716472267 source:/home/pedro/source/tp1/projeto2_tp1/sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"sqlite_cfg.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<Windows.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
+

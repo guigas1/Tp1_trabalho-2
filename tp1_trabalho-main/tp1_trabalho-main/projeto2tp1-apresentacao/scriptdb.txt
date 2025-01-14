@@ -1,0 +1,7 @@
+CREATE TABLE contas(cpf char(14) PRIMARY KEY, nome varchar(20) NOT NULL, senha char(6) NOT NULL);
+
+CREATE TABLE titulos(codigo char(11) PRIMARY KEY, cpf char(14) NOT NULL, setor varchar(23) NOT NULL, emissao char(10) NOT NULL,
+ vencimento char(10) NOT NULL, valor float NOT NULL, emissor varchar(20) NOT NULL, FOREIGN KEY(cpf) REFERENCES contas(cpf));
+
+CREATE TABLE pagamentos(codPagamento char(8), codTitulo char(11) NOT NULL,
+data char(10) NOT NULL, percentual integer NOT NULL, estado varchar(12) NOT NULL, FOREIGN KEY(codTitulo) REFERENCES titulos(codigo));
